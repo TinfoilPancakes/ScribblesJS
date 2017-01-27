@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'alegreyaregular';
+    src: url('Assets/Fonts/alegreya-regular-webfont.eot');
+    src: url('Assets/Fonts/alegreya-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Assets/Fonts/alegreya-regular-webfont.woff2') format('woff2'),
+         url('Assets/Fonts/alegreya-regular-webfont.woff') format('woff'),
+         url('Assets/Fonts/alegreya-regular-webfont.ttf') format('truetype'),
+         url('Assets/Fonts/alegreya-regular-webfont.svg#alegreyaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'encode_sansextralight';
+    src: url('Assets/Fonts/encodesans-extralight-webfont.eot');
+    src: url('Assets/Fonts/encodesans-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Assets/Fonts/encodesans-extralight-webfont.woff2') format('woff2'),
+         url('Assets/Fonts/encodesans-extralight-webfont.woff') format('woff'),
+         url('Assets/Fonts/encodesans-extralight-webfont.ttf') format('truetype'),
+         url('Assets/Fonts/encodesans-extralight-webfont.svg#encode_sansextralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+	padding: 0px;
+	margin: 0px;
+	background-color: #c4197a;
+	font-family: 'encode_sansextralight';
+	font-size: 1.0625em;
+	text-align: center;
+}
+
+body{
+	margin: 0;
+}
+
+.Wrapper{
+	position: fixed;
+	height: 100%;
+	left: 10%;
+	width: 80%;
+	background-color: #e8e8e8;
+	box-shadow: 0px 0px 20px rgba(32,32,32,0.5);
+}
+
+.line{
+	width: 50%;
+	border-bottom: 1px #686868 solid;
+	margin-top: 0.1em;
+	margin-left: 25%;
+}
+
+.PageInfo{
+	padding: 0.5em;
+	font-size: 1.2em;
+}
+
+.WritingArea {
+	font-family: inherit;
+	font-size: inherit;
+	width: 90%;
+	height: 50%;
+	border: none;
+	background-color: rgba(255,255,255,0);
+	text-align: left;
+	padding: 1em;
+}
+
+.Seperator{
+	padding: 0.5em;
+	text-align: center;
+}
+
+.Results{
+	text-align: left;
+	background-color: #cfcfcf;
+	font-weight: inherit;
+	padding: 2em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.Selected{
+	color: #c4197a;
+	font-weight: bold;
+	margin: 0.15em;
+	padding: 0.05em;
+	border-bottom: 1px #b0b0b0 solid
+}
+
+.NotSelected{
+	margin: 0.15em;
+	padding: 0.05em;
+}
